@@ -14,8 +14,12 @@ module.exports = {
                 use:"html-loader",
             },
             {
+                test:/\.css$/i,
+                use:['style-loader','css-loader']
+            },
+            {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-                type:'asset/resource',
+                type:'asset/resource'
             }
         ]
     },
