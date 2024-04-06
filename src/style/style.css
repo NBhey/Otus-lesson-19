@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: red;
+}
+
+.header {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.logo {
+  padding-left: 50px;
+  min-width: 200px;
+}
+
+.logo > a > img {
+  width: 200px;
+}
+.navigation{
+    /* padding-top: 50px; */
+    padding-right: 500px;
+}
+.navigation > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navigation > ul > li{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
