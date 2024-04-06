@@ -48,24 +48,35 @@ h2 {
 }
 
 .main {
-margin: 0 auto;  display: grid;
+  margin: 0 auto;
+  padding: 10px 15px;
+  display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   background-color: yellowgreen;
   height: auto;
 }
-.history-product{
+.history-product {
   /* background-color: darkorchid; */
 }
 .history-product > p {
   margin-bottom: 10px;
 }
-.content{
+.content {
   text-align: center;
 }
-.other-product{
+.other-product {
   /* background-color:springgreen ; */
 }
-.other-product > ul > li{
+.other-product > ul > li {
   text-align: center;
   margin-bottom: 30px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: darkgoldenrod;
 }
