@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:prod": "webpack",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "server": "webpack-dev-server ",
     "prettier": "prettier  --write src/**/*.js",
     "lint": "eslint ./src"
