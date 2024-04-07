@@ -4,7 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/JS-javascript-yellow?logo=javascript)
 ![Static Badge](https://img.shields.io/badge/HTML5-blue)
-![Static Badge](https://img.shields.io/badge/CSS3-blue)
+![Static Badge](https://img.shields.io/badge/CSS3-orange)
 
 ### Домащнее задание: 
 
@@ -13,4 +13,9 @@
 ### Макет:
 
 ![Layout](./docs/Трёхколоночный_типовой_веб-макет.png)
+
+
+### Ссылка на проект в Sandbox 
+
+[URL](https://githubbox.com/NBhey/Otus-lesson-19/tree/gh-pages)
  
